@@ -1,0 +1,55 @@
+.presentation {
+ 
+}
+
+.presentation p {
+    padding: 0;
+}
+
+.presentation header {
+    padding-bottom: 2em;
+}
+
+.presentation header p {
+    opacity: 0.8;
+}
+
+.presentation header h1 {
+    line-height: 1.1;
+    margin: 0;
+    margin: 0.2rem 0 0.2rem -0.06em;
+}
+
+.presentation header h2 {
+    color: rgb(15, 40, 39);
+    font-size: 1.8em;
+}
+
+.presentation header h2::before {
+    content: '< / >';
+    padding-right: 1em;
+}
+
+.presentation p a {
+    text-decoration: none;
+}
+
+.presentation p a:hover {
+    text-decoration: underline;
+}
+
+.presentation .comment {
+    opacity: 0.3;
+}
+
+.presentation .clr-variable-type {
+    color:  rgb(204, 93, 38);
+}
+
+.presentation .clr-variable-name {
+    color: rgb(224, 164, 87);
+}
+
+.presentation .clr-variable-value {
+    color: rgb(15, 2, 27);
+}
